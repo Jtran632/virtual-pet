@@ -12,7 +12,13 @@ const config: Config = {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+          'lakeside': "url('../../public/lakeside.jpg')",
+          'desert': "url('../../public/desert.jpg')",
+          'campsite': "url('../../public/campsite.jpg')"
       },
+      fontFamily: {
+        'pixel': ['pixel'],
+      }
     },
   },
   plugins: [],
