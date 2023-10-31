@@ -14,7 +14,8 @@ const config: Config = {
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
           'lakeside': "url('../../public/lakeside.jpg')",
           'desert': "url('../../public/desert.jpg')",
-          'campsite': "url('../../public/campsite.jpg')"
+          'campsite': "url('../../public/campsite.jpg')",
+          'meadow': "url('../../public/meadow.png')"
       },
       fontFamily: {
         'pixel': ['pixel'],

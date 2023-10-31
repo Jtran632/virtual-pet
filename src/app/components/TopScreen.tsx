@@ -1,5 +1,3 @@
-'use client'
-
 interface TopScreenProps {
     happiness: number,
     hunger: number,
@@ -10,44 +8,6 @@ interface TopScreenProps {
         speed: number,
     },
     energy: any
-}
-const poke = {
-    charmander: {
-        id: 1,
-        name: 'charmander',
-        url: '/1.png',
-        evolvesTo: 'charmeleon',
-        evolutionPhase: 'base',
-        evolveCondition: {
-            strength: 0,
-            defence: 0,
-            speed: 0,
-        }
-    },
-    charmeleon: {
-        id: 2,
-        name: 'charmeleon',
-        url: '/2.png',
-        evolvesTo: 'charizard',
-        evolutionPhase: 'middle',
-        evolveCondition: {
-            strength: 0,
-            defence: 0,
-            speed: 0,
-        }
-    },
-    charizard: {
-        id: 3,
-        name: 'charmander',
-        url: '/3.png',
-        evolvesTo: 'none',
-        evolutionPhase: 'final',
-        evolveCondition: {
-            strength: 0,
-            defence: 0,
-            speed: 0,
-        },
-    }
 }
 export default function TopScreen({ happiness, hunger, exp, stats, energy }: TopScreenProps) {
     return (
