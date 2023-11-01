@@ -15,11 +15,30 @@ const config: Config = {
           'lakeside': "url('../../public/lakeside.jpg')",
           'desert': "url('../../public/desert.jpg')",
           'campsite': "url('../../public/campsite.jpg')",
-          'meadow': "url('../../public/meadow.png')"
+          'meadow': "url('../../public/meadow.png')",
+          'beach': "url('../../public/beach.png')",
       },
       fontFamily: {
         'pixel': ['pixel'],
-      }
+      },
+      keyframes: {
+        wiggle: {
+          "0%, 100%": { transform: "rotate(-5deg)" },
+          "50%": { transform: "rotate(5deg)" }
+        },
+        pingSlow: {
+          '0%, 100%': {transform: 'scale(1.2) translateY(-25%)', opacity: '1', AnimationEffect: "cubic-bezier(0.8,0,1,1)"},
+          '50%': {
+            transform: 'translateY(0)',
+            AnimationEffect: 'cubic-bezier(0, 0, 0.2, 1)',
+          }
+        }
+      },
+      
+      animation: {
+        wiggle: "wiggle 3s ease-in-out infinite",
+        pingSlow: "pingSlow 1s ",
+      },
     },
   },
   plugins: [],

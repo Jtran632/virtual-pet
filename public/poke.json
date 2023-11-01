@@ -1,0 +1,1136 @@
+{
+   "egg": {
+      "name": "egg",
+      "url": "",
+      "urlShiny": "",
+      "evolvesTo": "none",
+      "evolutionPhase": "egg"
+   },
+   "bulbasaur": {
+      "name": "bulbasaur",
+      "url": "/mons/1/0.png",
+      "urlShiny": "/mons/1/1.png",
+      "evolvesTo": "ivysaur",
+      "evolutionPhase": "base"
+   },
+   "ivysaur": {
+      "name": "ivysaur",
+      "url": "/mons/2/0.png",
+      "urlShiny": "/mons/2/1.png",
+      "evolvesTo": "venusaur",
+      "evolutionPhase": "middle"
+   },
+   "venusaur": {
+      "name": "venusaur",
+      "url": "/mons/3/0.png",
+      "urlShiny": "/mons/3/1.png",
+      "evolvesTo": "venusaur-m",
+      "evolutionPhase": "final"
+   },
+   "venusaur-m": {
+      "name": "venusaur-m",
+      "url": "/mons/3-M/0.png",
+      "urlShiny": "/mons/3-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "charmander": {
+      "name": "charmander",
+      "url": "/mons/4/0.png",
+      "urlShiny": "/mons/4/1.png",
+      "evolvesTo": "charmeleon",
+      "evolutionPhase": "base"
+   },
+   "charmeleon": {
+      "name": "charmeleon",
+      "url": "/mons/5/0.png",
+      "urlShiny": "/mons/5/1.png",
+      "evolvesTo": "charizard",
+      "evolutionPhase": "middle"
+   },
+   "charizard": {
+      "name": "charizard",
+      "url": "/mons/6/0.png",
+      "urlShiny": "/mons/6/1.png",
+      "evolvesTo": [
+         "charizard-mx",
+         "charizard-my"
+      ],
+      "evolutionPhase": "final"
+   },
+   "charizard-mx": {
+      "name": "charizard-mx",
+      "url": "/mons/6-MX/0.png",
+      "urlShiny": "/mons/6-MX/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "charizard-my": {
+      "name": "charizard-my",
+      "url": "/mons/6-MY/0.png",
+      "urlShiny": "/mons/6-MY/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "squirtle": {
+      "name": "squirtle",
+      "url": "/mons/7/0.png",
+      "urlShiny": "/mons/7/1.png",
+      "evolvesTo": "wartortle",
+      "evolutionPhase": "base"
+   },
+   "wartortle": {
+      "name": "wartortle",
+      "url": "/mons/8/0.png",
+      "urlShiny": "/mons/8/1.png",
+      "evolvesTo": "blaustoise",
+      "evolutionPhase": "middle"
+   },
+   "blaustoise": {
+      "name": "blaustoise",
+      "url": "/mons/9/0.png",
+      "urlShiny": "/mons/9/1.png",
+      "evolvesTo": "blaustoise-m",
+      "evolutionPhase": "final"
+   },
+   "blaustoise-m": {
+      "name": "blaustoise-m",
+      "url": "/mons/9-M/0.png",
+      "urlShiny": "/mons/9-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "caterpie": {
+      "name": "caterpie",
+      "url": "/mons/10/0.png",
+      "urlShiny": "/mons/10/1.png",
+      "evolvesTo": "metapod",
+      "evolutionPhase": "base"
+   },
+   "metapod": {
+      "name": "metapod",
+      "url": "/mons/11/0.png",
+      "urlShiny": "/mons/11/1.png",
+      "evolvesTo": "butterfree",
+      "evolutionPhase": "middle"
+   },
+   "butterfree": {
+      "name": "butterfree",
+      "url": "/mons/12/0.png",
+      "urlShiny": "/mons/12/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "weedle": {
+      "name": "weedle",
+      "url": "/mons/13/0.png",
+      "urlShiny": "/mons/13/1.png",
+      "evolvesTo": "kakuna",
+      "evolutionPhase": "base"
+   },
+   "kakuna": {
+      "name": "kakuna",
+      "url": "/mons/14/0.png",
+      "urlShiny": "/mons/14/1.png",
+      "evolvesTo": "beedrill",
+      "evolutionPhase": "middle"
+   },
+   "beedrill": {
+      "name": "beedrill",
+      "url": "/mons/15/0.png",
+      "urlShiny": "/mons/15/1.png",
+      "evolvesTo": "beedrill-m",
+      "evolutionPhase": "final"
+   },
+   "beedrill-m": {
+      "name": "beedrill",
+      "url": "/mons/15-M/0.png",
+      "urlShiny": "/mons/15-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "pidgey": {
+      "name": "pidgey",
+      "url": "/mons/16/0.png",
+      "urlShiny": "/mons/16/1.png",
+      "evolvesTo": "pidgeotto",
+      "evolutionPhase": "base"
+   },
+   "pidgeotto": {
+      "name": "ridgeotto",
+      "url": "/mons/17/0.png",
+      "urlShiny": "/mons/17/1.png",
+      "evolvesTo": "pidgeot",
+      "evolutionPhase": "middle"
+   },
+   "pidgeot": {
+      "name": "pidgeot",
+      "url": "/mons/18/0.png",
+      "urlShiny": "/mons/18/1.png",
+      "evolvesTo": "pidgeot-m",
+      "evolutionPhase": "final"
+   },
+   "pidgeot-m": {
+      "name": "pidgeot-m",
+      "url": "/mons/18-M/0.png",
+      "urlShiny": "/mons/18-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "rattata": {
+      "name": "rattata",
+      "url": "/mons/19/0.png",
+      "urlShiny": "/mons/19/1.png",
+      "evolvesTo": "raticate",
+      "evolutionPhase": "base"
+   },
+   "raticate": {
+      "name": "raticate",
+      "url": "/mons/20/0.png",
+      "urlShiny": "/mons/20/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "spearow": {
+      "name": "spearow",
+      "url": "/mons/21/0.png",
+      "urlShiny": "/mons/21/1.png",
+      "evolvesTo": "fearow",
+      "evolutionPhase": "base"
+   },
+   "fearow": {
+      "name": "fearow",
+      "url": "/mons/22/0.png",
+      "urlShiny": "/mons/22/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "ekans": {
+      "name": "ekans",
+      "url": "/mons/23/0.png",
+      "urlShiny": "/mons/23/1.png",
+      "evolvesTo": "arbok",
+      "evolutionPhase": "base"
+   },
+   "arbok": {
+      "name": "arbok",
+      "url": "/mons/24/0.png",
+      "urlShiny": "/mons/24/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "pikachu": {
+      "name": "pikachu",
+      "url": "/mons/25/0.png",
+      "urlShiny": "/mons/25/1.png",
+      "evolvesTo": "raichu",
+      "evolutionPhase": "base"
+   },
+   "raichu": {
+      "name": "raichu",
+      "url": "/mons/26/0.png",
+      "urlShiny": "/mons/26/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "sandshrew": {
+      "name": "sandshrew",
+      "url": "/mons/27/0.png",
+      "urlShiny": "/mons/27/1.png",
+      "evolvesTo": "sandslash",
+      "evolutionPhase": "base"
+   },
+   "sandslash": {
+      "name": "sandslash",
+      "url": "/mons/28/0.png",
+      "urlShiny": "/mons/28/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "nidoran-f": {
+      "name": "nidoran-f",
+      "url": "/mons/29/0.png",
+      "urlShiny": "/mons/29/1.png",
+      "evolvesTo": "nidorina",
+      "evolutionPhase": "base"
+   },
+   "nidorina": {
+      "name": "nidorina",
+      "url": "/mons/30/0.png",
+      "urlShiny": "/mons/30/1.png",
+      "evolvesTo": "nidoqueen",
+      "evolutionPhase": "middle"
+   },
+   "nidoqueen": {
+      "name": "nidoqueen",
+      "url": "/mons/31/0.png",
+      "urlShiny": "/mons/31/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "nidoran-m": {
+      "name": "nidoran-m",
+      "url": "/mons/32/0.png",
+      "urlShiny": "/mons/32/1.png",
+      "evolvesTo": "nidorino",
+      "evolutionPhase": "base"
+   },
+   "nidorino": {
+      "name": "nidorino",
+      "url": "/mons/33/0.png",
+      "urlShiny": "/mons/33/1.png",
+      "evolvesTo": "nidoking",
+      "evolutionPhase": "middle"
+   },
+   "nidoking": {
+      "name": "nidoking",
+      "url": "/mons/34/0.png",
+      "urlShiny": "/mons/34/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "clefairy": {
+      "name": "clefairy",
+      "url": "/mons/35/0.png",
+      "urlShiny": "/mons/35/1.png",
+      "evolvesTo": "clefable",
+      "evolutionPhase": "base"
+   },
+   "clefable": {
+      "name": "clefable",
+      "url": "/mons/36/0.png",
+      "urlShiny": "/mons/36/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "vulpix": {
+      "name": "vulpix",
+      "url": "/mons/37/0.png",
+      "urlShiny": "/mons/37/1.png",
+      "evolvesTo": "ninetales",
+      "evolutionPhase": "base"
+   },
+   "ninetales": {
+      "name": "ninetales",
+      "url": "/mons/38/0.png",
+      "urlShiny": "/mons/38/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "jigglypuff": {
+      "name": "jigglypuff",
+      "url": "/mons/39/0.png",
+      "urlShiny": "/mons/39/1.png",
+      "evolvesTo": "wigglytuff",
+      "evolutionPhase": "base"
+   },
+   "wigglytuff": {
+      "name": "wigglytuff",
+      "url": "/mons/40/0.png",
+      "urlShiny": "/mons/40/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "zubat": {
+      "name": "zubat",
+      "url": "/mons/41/0.png",
+      "urlShiny": "/mons/41/1.png",
+      "evolvesTo": "golbat",
+      "evolutionPhase": "base"
+   },
+   "golbat": {
+      "name": "golbat",
+      "url": "/mons/42/0.png",
+      "urlShiny": "/mons/42/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "oddish": {
+      "name": "oddish",
+      "url": "/mons/43/0.png",
+      "urlShiny": "/mons/43/1.png",
+      "evolvesTo": "gloom",
+      "evolutionPhase": "base"
+   },
+   "gloom": {
+      "name": "gloom",
+      "url": "/mons/44/0.png",
+      "urlShiny": "/mons/44/1.png",
+      "evolvesTo": "vileplume",
+      "evolutionPhase": "middle"
+   },
+   "vileplume": {
+      "name": "vileplume",
+      "url": "/mons/45/0.png",
+      "urlShiny": "/mons/45/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "paras": {
+      "name": "paras",
+      "url": "/mons/46/0.png",
+      "urlShiny": "/mons/46/1.png",
+      "evolvesTo": "parasect",
+      "evolutionPhase": "base"
+   },
+   "parasect": {
+      "name": "parasect",
+      "url": "/mons/47/0.png",
+      "urlShiny": "/mons/47/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "venonat": {
+      "name": "venonat",
+      "url": "/mons/48/0.png",
+      "urlShiny": "/mons/48/1.png",
+      "evolvesTo": "venomoth",
+      "evolutionPhase": "base"
+   },
+   "venomoth": {
+      "name": "venomoth",
+      "url": "/mons/49/0.png",
+      "urlShiny": "/mons/49/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "diglett": {
+      "name": "diglett",
+      "url": "/mons/50/0.png",
+      "urlShiny": "/mons/50/1.png",
+      "evolvesTo": "dugtrio",
+      "evolutionPhase": "base"
+   },
+   "dugtrio": {
+      "name": "dugtrio",
+      "url": "/mons/51/0.png",
+      "urlShiny": "/mons/51/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "meowth": {
+      "name": "meowth",
+      "url": "/mons/52/0.png",
+      "urlShiny": "/mons/52/1.png",
+      "evolvesTo": "persian",
+      "evolutionPhase": "base"
+   },
+   "persian": {
+      "name": "persian",
+      "url": "/mons/53/0.png",
+      "urlShiny": "/mons/53/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "psyduck": {
+      "name": "psyduck",
+      "url": "/mons/54/0.png",
+      "urlShiny": "/mons/54/1.png",
+      "evolvesTo": "golduck",
+      "evolutionPhase": "base"
+   },
+   "golduck": {
+      "name": "golduck",
+      "url": "/mons/55/0.png",
+      "urlShiny": "/mons/55/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "mankey": {
+      "name": "mankey",
+      "url": "/mons/56/0.png",
+      "urlShiny": "/mons/56/1.png",
+      "evolvesTo": "primeape",
+      "evolutionPhase": "base"
+   },
+   "primeape": {
+      "name": "primeape",
+      "url": "/mons/57/0.png",
+      "urlShiny": "/mons/57/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "growlithe": {
+      "name": "growlithe",
+      "url": "/mons/58/0.png",
+      "urlShiny": "/mons/58/1.png",
+      "evolvesTo": "arcanine",
+      "evolutionPhase": "base"
+   },
+   "arcanine": {
+      "name": "arcanine",
+      "url": "/mons/59/0.png",
+      "urlShiny": "/mons/59/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "poliwag": {
+      "name": "poliwag",
+      "url": "/mons/60/0.png",
+      "urlShiny": "/mons/60/1.png",
+      "evolvesTo": "poliwhirl",
+      "evolutionPhase": "base"
+   },
+   "poliwhirl": {
+      "name": "poliwhirl",
+      "url": "/mons/61/0.png",
+      "urlShiny": "/mons/61/1.png",
+      "evolvesTo": "poliwrath",
+      "evolutionPhase": "middle"
+   },
+   "poliwrath": {
+      "name": "poliwrath",
+      "url": "/mons/62/0.png",
+      "urlShiny": "/mons/62/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "abra": {
+      "name": "abra",
+      "url": "/mons/63/0.png",
+      "urlShiny": "/mons/63/1.png",
+      "evolvesTo": "kadabra",
+      "evolutionPhase": "base"
+   },
+   "kadabra": {
+      "name": "kadabra",
+      "url": "/mons/64/0.png",
+      "urlShiny": "/mons/64/1.png",
+      "evolvesTo": "alakazam",
+      "evolutionPhase": "middle"
+   },
+   "alakazam": {
+      "name": "alakazam",
+      "url": "/mons/65/0.png",
+      "urlShiny": "/mons/65/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "machop": {
+      "name": "machop",
+      "url": "/mons/66/0.png",
+      "urlShiny": "/mons/66/1.png",
+      "evolvesTo": "machoke",
+      "evolutionPhase": "base"
+   },
+   "machoke": {
+      "name": "machoke",
+      "url": "/mons/67/0.png",
+      "urlShiny": "/mons/67/1.png",
+      "evolvesTo": "machamp",
+      "evolutionPhase": "middle"
+   },
+   "machamp": {
+      "name": "machamp",
+      "url": "/mons/68/0.png",
+      "urlShiny": "/mons/68/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "bellsprout": {
+      "name": "bellsprout",
+      "url": "/mons/69/0.png",
+      "urlShiny": "/mons/69/1.png",
+      "evolvesTo": "weepinbell",
+      "evolutionPhase": "base"
+   },
+   "weepinbell": {
+      "name": "weepinbell",
+      "url": "/mons/70/0.png",
+      "urlShiny": "/mons/70/1.png",
+      "evolvesTo": "victreebel",
+      "evolutionPhase": "middle"
+   },
+   "victreebel": {
+      "name": "victreebel",
+      "url": "/mons/71/0.png",
+      "urlShiny": "/mons/71/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "tentacool": {
+      "name": "tentacool",
+      "url": "/mons/72/0.png",
+      "urlShiny": "/mons/72/1.png",
+      "evolvesTo": "tentacruel",
+      "evolutionPhase": "base"
+   },
+   "tentacruel": {
+      "name": "tentacruel",
+      "url": "/mons/73/0.png",
+      "urlShiny": "/mons/73/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "geodude": {
+      "name": "geodude",
+      "url": "/mons/74/0.png",
+      "urlShiny": "/mons/74/1.png",
+      "evolvesTo": "graveler",
+      "evolutionPhase": "base"
+   },
+   "graveler": {
+      "name": "graveler",
+      "url": "/mons/75/0.png",
+      "urlShiny": "/mons/75/1.png",
+      "evolvesTo": "golem",
+      "evolutionPhase": "middle"
+   },
+   "golem": {
+      "name": "golem",
+      "url": "/mons/76/0.png",
+      "urlShiny": "/mons/76/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "ponyta": {
+      "name": "ponyta",
+      "url": "/mons/77/0.png",
+      "urlShiny": "/mons/77/1.png",
+      "evolvesTo": "rapidash",
+      "evolutionPhase": "base"
+   },
+   "rapidash": {
+      "name": "rapidash",
+      "url": "/mons/78/0.png",
+      "urlShiny": "/mons/78/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "slowpoke": {
+      "name": "slowpoke",
+      "url": "/mons/79/0.png",
+      "urlShiny": "/mons/79/1.png",
+      "evolvesTo": "slowbro",
+      "evolutionPhase": "base"
+   },
+   "slowbro": {
+      "name": "slowbro",
+      "url": "/mons/80/0.png",
+      "urlShiny": "/mons/80/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "magnemite": {
+      "name": "magnemite",
+      "url": "/mons/81/0.png",
+      "urlShiny": "/mons/81/1.png",
+      "evolvesTo": "magneton",
+      "evolutionPhase": "base"
+   },
+   "magneton": {
+      "name": "magneton",
+      "url": "/mons/82/0.png",
+      "urlShiny": "/mons/82/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "farfetchd": {
+      "name": "farfetchd",
+      "url": "/mons/83/0.png",
+      "urlShiny": "/mons/83/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "doduo": {
+      "name": "doduo",
+      "url": "/mons/84/0.png",
+      "urlShiny": "/mons/84/1.png",
+      "evolvesTo": "dodrio",
+      "evolutionPhase": "base"
+   },
+   "dodrio": {
+      "name": "dodrio",
+      "url": "/mons/85/0.png",
+      "urlShiny": "/mons/85/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "seel": {
+      "name": "seel",
+      "url": "/mons/86/0.png",
+      "urlShiny": "/mons/86/1.png",
+      "evolvesTo": "dewgong",
+      "evolutionPhase": "base"
+   },
+   "dewgong": {
+      "name": "dewgong",
+      "url": "/mons/87/0.png",
+      "urlShiny": "/mons/87/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "grimer": {
+      "name": "grimer",
+      "url": "/mons/88/0.png",
+      "urlShiny": "/mons/88/1.png",
+      "evolvesTo": "muk",
+      "evolutionPhase": "base"
+   },
+   "muk": {
+      "name": "muk",
+      "url": "/mons/89/0.png",
+      "urlShiny": "/mons/89/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "shellder": {
+      "name": "shellder",
+      "url": "/mons/90/0.png",
+      "urlShiny": "/mons/90/1.png",
+      "evolvesTo": "cloyster",
+      "evolutionPhase": "base"
+   },
+   "cloyster": {
+      "name": "cloyster",
+      "url": "/mons/91/0.png",
+      "urlShiny": "/mons/91/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "gastly": {
+      "name": "gastly",
+      "url": "/mons/92/0.png",
+      "urlShiny": "/mons/92/1.png",
+      "evolvesTo": "haunter",
+      "evolutionPhase": "base"
+   },
+   "haunter": {
+      "name": "haunter",
+      "url": "/mons/93/0.png",
+      "urlShiny": "/mons/93/1.png",
+      "evolvesTo": "gengar",
+      "evolutionPhase": "middle"
+   },
+   "gengar": {
+      "name": "gengar",
+      "url": "/mons/94/0.png",
+      "urlShiny": "/mons/94/1.png",
+      "evolvesTo": "gengar-m",
+      "evolutionPhase": "final"
+   },
+   "gengar-m": {
+      "name": "gengar",
+      "url": "/mons/94-M/0.png",
+      "urlShiny": "/mons/94-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "onix": {
+      "name": "onix",
+      "url": "/mons/95/0.png",
+      "urlShiny": "/mons/95/1.png",
+      "evolvesTo": "steelix",
+      "evolutionPhase": "base"
+   },
+   "drowzee": {
+      "name": "drowzee",
+      "url": "/mons/96/0.png",
+      "urlShiny": "/mons/96/1.png",
+      "evolvesTo": "hypno",
+      "evolutionPhase": "base"
+   },
+   "hypno": {
+      "name": "hypno",
+      "url": "/mons/97/0.png",
+      "urlShiny": "/mons/97/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "krabby": {
+      "name": "krabby",
+      "url": "/mons/98/0.png",
+      "urlShiny": "/mons/98/1.png",
+      "evolvesTo": "kingler",
+      "evolutionPhase": "base"
+   },
+   "kingler": {
+      "name": "kingler",
+      "url": "/mons/99/0.png",
+      "urlShiny": "/mons/99/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "voltorb": {
+      "name": "voltorb",
+      "url": "/mons/100/0.png",
+      "urlShiny": "/mons/100/1.png",
+      "evolvesTo": "electrode",
+      "evolutionPhase": "base"
+   },
+   "electrode": {
+      "name": "electrode",
+      "url": "/mons/101/0.png",
+      "urlShiny": "/mons/101/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "exeggcute": {
+      "name": "exeggcute",
+      "url": "/mons/102/0.png",
+      "urlShiny": "/mons/102/1.png",
+      "evolvesTo": "exeggutor",
+      "evolutionPhase": "base"
+   },
+   "exeggutor": {
+      "name": "exeggutor",
+      "url": "/mons/103/0.png",
+      "urlShiny": "/mons/103/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "cubone": {
+      "name": "cubone",
+      "url": "/mons/104/0.png",
+      "urlShiny": "/mons/104/1.png",
+      "evolvesTo": "marowak",
+      "evolutionPhase": "base"
+   },
+   "marowak": {
+      "name": "marowak",
+      "url": "/mons/105/0.png",
+      "urlShiny": "/mons/105/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "hitmonlee": {
+      "name": "hitmonlee",
+      "url": "/mons/106/0.png",
+      "urlShiny": "/mons/106/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "hitmonchan": {
+      "name": "hitmonchan",
+      "url": "/mons/107/0.png",
+      "urlShiny": "/mons/107/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "lickitung": {
+      "name": "lickitung",
+      "url": "/mons/108/0.png",
+      "urlShiny": "/mons/108/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "koffing": {
+      "name": "koffing",
+      "url": "/mons/109/0.png",
+      "urlShiny": "/mons/109/1.png",
+      "evolvesTo": "weezing",
+      "evolutionPhase": "base"
+   },
+   "weezing": {
+      "name": "weezing",
+      "url": "/mons/110/0.png",
+      "urlShiny": "/mons/110/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "rhyhorn": {
+      "name": "rhyhorn",
+      "url": "/mons/111/0.png",
+      "urlShiny": "/mons/111/1.png",
+      "evolvesTo": "rhydon",
+      "evolutionPhase": "base"
+   },
+   "rhydon": {
+      "name": "rhydon",
+      "url": "/mons/112/0.png",
+      "urlShiny": "/mons/112/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "chansey": {
+      "name": "chansey",
+      "url": "/mons/113/0.png",
+      "urlShiny": "/mons/113/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "tangela": {
+      "name": "tangela",
+      "url": "/mons/114/0.png",
+      "urlShiny": "/mons/114/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "kangaskhan": {
+      "name": "kangaskhan",
+      "url": "/mons/115/0.png",
+      "urlShiny": "/mons/115/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "horsea": {
+      "name": "horsea",
+      "url": "/mons/116/0.png",
+      "urlShiny": "/mons/116/1.png",
+      "evolvesTo": "seadra",
+      "evolutionPhase": "base"
+   },
+   "seadra": {
+      "name": "seadra",
+      "url": "/mons/117/0.png",
+      "urlShiny": "/mons/117/1.png",
+      "evolvesTo": "kingdra",
+      "evolutionPhase": "final"
+   },
+   "goldeen": {
+      "name": "goldeen",
+      "url": "/mons/118/0.png",
+      "urlShiny": "/mons/118/1.png",
+      "evolvesTo": "seaking",
+      "evolutionPhase": "base"
+   },
+   "seaking": {
+      "name": "seaking",
+      "url": "/mons/119/0.png",
+      "urlShiny": "/mons/119/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "staryu": {
+      "name": "staryu",
+      "url": "/mons/120/0.png",
+      "urlShiny": "/mons/120/1.png",
+      "evolvesTo": "starmie",
+      "evolutionPhase": "base"
+   },
+   "starmie": {
+      "name": "starmie",
+      "url": "/mons/121/0.png",
+      "urlShiny": "/mons/121/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "mrmime": {
+      "name": "mrmime",
+      "url": "/mons/122/0.png",
+      "urlShiny": "/mons/122/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "scyther": {
+      "name": "scyther",
+      "url": "/mons/123/0.png",
+      "urlShiny": "/mons/123/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "jynx": {
+      "name": "jynx",
+      "url": "/mons/124/0.png",
+      "urlShiny": "/mons/124/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "electabuzz": {
+      "name": "electabuzz",
+      "url": "/mons/125/0.png",
+      "urlShiny": "/mons/125/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "magmar": {
+      "name": "magmar",
+      "url": "/mons/126/0.png",
+      "urlShiny": "/mons/126/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "pinsir": {
+      "name": "pinsir",
+      "url": "/mons/127/0.png",
+      "urlShiny": "/mons/127/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "tauros": {
+      "name": "tauros",
+      "url": "/mons/128/0.png",
+      "urlShiny": "/mons/128/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "magikarp": {
+      "name": "magikarp",
+      "url": "/mons/129/0.png",
+      "urlShiny": "/mons/129/1.png",
+      "evolvesTo": "gyarados",
+      "evolutionPhase": "base"
+   },
+   "gyarados": {
+      "name": "gyarados",
+      "url": "/mons/130/0.png",
+      "urlShiny": "/mons/130/1.png",
+      "evolvesTo": "gyarados-m",
+      "evolutionPhase": "final"
+   },
+   "gyarados-m": {
+      "name": "gyarados-m",
+      "url": "/mons/130-M/0.png",
+      "urlShiny": "/mons/130-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "lapras": {
+      "name": "lapras",
+      "url": "/mons/131/0.png",
+      "urlShiny": "/mons/131/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "ditto": {
+      "name": "ditto",
+      "url": "/mons/132/0.png",
+      "urlShiny": "/mons/132/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "eevee": {
+      "name": "eevee",
+      "url": "/mons/133/0.png",
+      "urlShiny": "/mons/133/1.png",
+      "evolvesTo": [
+         "vaporeon",
+         "jolteon",
+         "flareon"
+      ],
+      "evolutionPhase": "base"
+   },
+   "vaporeon": {
+      "name": "vaporeon",
+      "url": "/mons/134/0.png",
+      "urlShiny": "/mons/134/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "jolteon": {
+      "name": "jolteon",
+      "url": "/mons/135/0.png",
+      "urlShiny": "/mons/135/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "flareon": {
+      "name": "flareon",
+      "url": "/mons/136/0.png",
+      "urlShiny": "/mons/136/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "porygon": {
+      "name": "porygon",
+      "url": "/mons/137/0.png",
+      "urlShiny": "/mons/137/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "omanyte": {
+      "name": "omanyte",
+      "url": "/mons/138/0.png",
+      "urlShiny": "/mons/138/1.png",
+      "evolvesTo": "omastar",
+      "evolutionPhase": "base"
+   },
+   "omastar": {
+      "name": "omastar",
+      "url": "/mons/139/0.png",
+      "urlShiny": "/mons/139/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "kabuto": {
+      "name": "kabuto",
+      "url": "/mons/140/0.png",
+      "urlShiny": "/mons/140/1.png",
+      "evolvesTo": "kabutops",
+      "evolutionPhase": "base"
+   },
+   "kabutops": {
+      "name": "kabutops",
+      "url": "/mons/141/0.png",
+      "urlShiny": "/mons/141/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "aerodactyl": {
+      "name": "aerodactyl",
+      "url": "/mons/142/0.png",
+      "urlShiny": "/mons/142/1.png",
+      "evolvesTo": "aerodactyl-m",
+      "evolutionPhase": "base"
+   },
+   "aerodactyl-m": {
+      "name": "aerodactyl-m",
+      "url": "/mons/142-M/0.png",
+      "urlShiny": "/mons/142-M/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "mega"
+   },
+   "snorlax": {
+      "name": "snorlax",
+      "url": "/mons/143/0.png",
+      "urlShiny": "/mons/143/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "articuno": {
+      "name": "articuno",
+      "url": "/mons/144/0.png",
+      "urlShiny": "/mons/144/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "zapdos": {
+      "name": "zapdos",
+      "url": "/mons/145/0.png",
+      "urlShiny": "/mons/145/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "moltres": {
+      "name": "moltres",
+      "url": "/mons/146/0.png",
+      "urlShiny": "/mons/146/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "dratini": {
+      "name": "dratini",
+      "url": "/mons/147/0.png",
+      "urlShiny": "/mons/147/1.png",
+      "evolvesTo": "dragonair",
+      "evolutionPhase": "base"
+   },
+   "dragonair": {
+      "name": "dragonair",
+      "url": "/mons/148/0.png",
+      "urlShiny": "/mons/148/1.png",
+      "evolvesTo": "dragonite",
+      "evolutionPhase": "middle"
+   },
+   "dragonite": {
+      "name": "dragonite",
+      "url": "/mons/149/0.png",
+      "urlShiny": "/mons/149/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "final"
+   },
+   "mewtwo": {
+      "name": "mewtwo",
+      "url": "/mons/150/0.png",
+      "urlShiny": "/mons/150/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   },
+   "mew": {
+      "name": "mew",
+      "url": "/mons/151/0.png",
+      "urlShiny": "/mons/151/1.png",
+      "evolvesTo": "none",
+      "evolutionPhase": "base"
+   }
+}
