@@ -874,7 +874,7 @@
       "name": "seadra",
       "url": "/mons/117/0.png",
       "urlShiny": "/mons/117/1.png",
-      "evolvesTo": "kingdra",
+      "evolvesTo": "none",
       "evolutionPhase": "final"
    },
    "goldeen": {
