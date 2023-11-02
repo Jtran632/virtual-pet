@@ -26,12 +26,30 @@ export default function FishingScreen({ stats, maxLevel }: FishingScreenProps) {
     const disableButton = () => {
         setDisabled(true);
         setFishingText('...')
-        GetFish();
         setTimeout(() => {
             setDisabled(false);
             setFishingText("Try again?")
         }, 1250);
     };
+
+    function GetFish() {
+        const bonus = Math.floor((stats.strength + stats.defence + stats.speed) / 3);
+        const pickFish = Math.floor(Math.random() * 101) + bonus;
+        for (const fish of fishTypes) {
+            if (pickFish >= fish.threshold) { //number of images in our selected folder
+                if (level < maxLevel) {
+                    setValue(fish.value);
+                } else {
+                    setValue(0)
+                }
+                setPingEffect(true);
+                setEnergy(energy - 1);
+                disableButton();
+                setFishUrl(`/fish/${fish.type}/${String(Math.floor(Math.random() * fish.size) + 1)}.png`);
+                break;
+            }
+        }
+    }
 
     const AdjustExp = () => {
         if (level < maxLevel) {
@@ -46,27 +64,12 @@ export default function FishingScreen({ stats, maxLevel }: FishingScreenProps) {
         }
     };
 
-    function GetFish() {
-        const bonus = Math.floor((stats.strength + stats.defence + stats.speed) / 3);
-        const pickFish = Math.floor(Math.random() * 101) + bonus;
-        let selectedFishType = 'junk';
-        for (const fish of fishTypes) {
-            if (pickFish >= fish.threshold) {
-                selectedFishType = fish.type;
-                const tempSize = fish.size; //number of images in our selected folder
-                const fishValue = fish.value;
-                setValue(fishValue);
-                setFishUrl(`/fish/${selectedFishType}/${String(Math.floor(Math.random() * tempSize) + 1)}.png`);
-                break;
-            }
-        }
-    }
     useEffect(() => {
         if (value > 0) {
             AdjustExp();
         }
     // eslint-disable-next-line react-hooks/exhaustive-deps
-    }, [value]);
+    }, [energy]);
 
     return (
         <div className={`grid grid-rows-6 grid-cols-3 row-span-4 border-4 border-black bg-beach bg-cover text-black`}>
@@ -88,9 +91,7 @@ export default function FishingScreen({ stats, maxLevel }: FishingScreenProps) {
                 disabled={disabled}
                 onClick={() => {
                     if (energy > 0) {
-                        setPingEffect(true);
-                        setEnergy(energy - 1);
-                        disableButton();
+                        GetFish();
                     } else {
                         setFishingText('No energy left');
                     }
