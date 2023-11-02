@@ -14,7 +14,7 @@ interface BottomScreenProps {
     setEnergy: Dispatch<SetStateAction<number>>,
     setCurScreen: Dispatch<SetStateAction<string>>,
 }
-const s = 'flex justify-center items-center col-span-1 border-r-2 w-full h-full hover:bg-green-100'
+const s = 'flex justify-center items-center col-span-1 border border-black w-full h-full hover:bg-green-100 hover:scale-110 hover:border-2'
 
 export default function BottomScreen({ pet, hunger, setHunger, energy, setEnergy, setCurScreen }: BottomScreenProps) {
     function eat() {
@@ -36,10 +36,11 @@ export default function BottomScreen({ pet, hunger, setHunger, energy, setEnergy
         <>
             {
                 pet.name != 'egg' ?
-                    <div className='grid grid-cols-5 row-span-1 border-2 border-black text-center text-2xl'>
+                    <div className='grid grid-cols-6 row-span-1 border-2 border-black text-center text-2xl'>
                         <button className={s} onClick={() => setCurScreen('default')}>🏠</button>
                         <button className={s} onClick={() => eat()}>🍕</button>
-                        <button className={s}>💪</button>
+                        <button className={s} onClick={() => eat()}>💪</button>
+                        <button className={s} onClick={() => setCurScreen('games')}>🎮</button>
                         <button className={s} onClick={() => setCurScreen('fishing')}>🎣</button>
                         <button className={s} onClick={() => setEnergy(25)}>💤</button>
                     </div >

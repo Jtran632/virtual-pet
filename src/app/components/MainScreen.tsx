@@ -5,6 +5,8 @@ import TopScreen from './screens/TopScreen';
 import BottomScreen from './screens/BottomScreen';
 import DefaultScreen from './screens/DefaultScreen';
 import FishingScreen from './screens/fishingScreen';
+import GameScreen from './screens/GameScreen';
+import RPSGameScreen from './screens/Games/RPSGameScreen';
 interface IExpContext {
     exp: number,
     setExp: Dispatch<SetStateAction<number>>,
@@ -12,6 +14,7 @@ interface IExpContext {
     setLevel: Dispatch<SetStateAction<number>>,
     energy: number,
     setEnergy: Dispatch<SetStateAction<number>>,
+    setCurScreen: Dispatch<SetStateAction<string>>,
 }
 export const ExpContext = createContext<IExpContext>({
     exp: 0,
@@ -20,6 +23,7 @@ export const ExpContext = createContext<IExpContext>({
     setLevel: () => { },
     energy: 0,
     setEnergy: () => { },
+    setCurScreen: () => { },
 })
 export default function Screen({ poke }: any) {
     const [stats, setStats] = useState({
@@ -53,12 +57,14 @@ export default function Screen({ poke }: any) {
     }, [level]);
 
     const mainScreen: { [key: string]: ReactNode } = {
-        default: <DefaultScreen {... { pet, setPet, level, setLevel, maxLevel, setMaxLevel, poke, canEvolve, setCanEvolve }} />,
+        default: <DefaultScreen {... { pet, setPet, level, setLevel, maxLevel, setMaxLevel, poke, canEvolve, setCanEvolve, setCurScreen }} />,
         fishing: <FishingScreen stats={stats} maxLevel={maxLevel} />,
+        games: <GameScreen />,
+        rpsGame: <RPSGameScreen />
     };
 
     return (
-        <ExpContext.Provider value={{ exp, setExp, level, setLevel, energy, setEnergy }}>
+        <ExpContext.Provider value={{ exp, setExp, level, setLevel, energy, setEnergy, setCurScreen }}>
             <div className='border-2 border-white rounded-lg'>
                 <div className='flex justify-center items-center border-8 border-gray-300 h-96 w-[26rem] rounded-md text-xs'>
                     <div className='grid grid-rows-6 h-full w-full bg-gray-400'>

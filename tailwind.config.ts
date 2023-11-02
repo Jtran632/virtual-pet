@@ -17,6 +17,8 @@ const config: Config = {
           'campsite': "url('../../public/campsite.jpg')",
           'meadow': "url('../../public/meadow.png')",
           'beach': "url('../../public/beach.png')",
+          'fields': "url('../../public/fields.png')",
+          'hill': "url('../../public/hill.png')",
       },
       fontFamily: {
         'pixel': ['pixel'],
