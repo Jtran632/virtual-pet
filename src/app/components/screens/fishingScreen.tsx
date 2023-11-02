@@ -26,10 +26,11 @@ export default function FishingScreen({ stats, maxLevel }: FishingScreenProps) {
     const disableButton = () => {
         setDisabled(true);
         setFishingText('...')
+        GetFish();
         setTimeout(() => {
             setDisabled(false);
             setFishingText("Try again?")
-        }, 750);
+        }, 1250);
     };
 
     const AdjustExp = () => {
@@ -89,7 +90,6 @@ export default function FishingScreen({ stats, maxLevel }: FishingScreenProps) {
                     if (energy > 0) {
                         setPingEffect(true);
                         setEnergy(energy - 1);
-                        GetFish();
                         disableButton();
                     } else {
                         setFishingText('No energy left');

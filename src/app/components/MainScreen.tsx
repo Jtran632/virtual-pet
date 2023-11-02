@@ -31,7 +31,7 @@ export default function Screen({ poke }: any) {
     const [happiness, setHappiness] = useState(50);
     const [hunger, setHunger] = useState(50);
     const [exp, setExp] = useState(0);
-    const [energy, setEnergy] = useState(10);
+    const [energy, setEnergy] = useState(25);
     const [level, setLevel] = useState(0);
     const [maxLevel, setMaxLevel] = useState(0);
     const [canEvolve, setCanEvolve] = useState(false)

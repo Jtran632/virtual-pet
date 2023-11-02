@@ -50,7 +50,7 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
         }
         setPet(poke[base[randomBase] as keyof object])
         setLevel(0)
-        setMaxLevel(1)
+        setMaxLevel(3)
         console.log(base)
     }
     useEffect(() => {
@@ -73,7 +73,7 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
         else {
             setPet(poke[pet.evolvesTo as keyof object])
         }
-        setMaxLevel(maxLevel + 1)
+        setMaxLevel(maxLevel + 3)
         setCanEvolve(false)
     }
     const fullyEvolved = () => {
