@@ -60,7 +60,7 @@ export default function TopScreen({ happiness, hunger, stats, energy }: TopScree
             <div className='flex justify-center items-center col-span-1 border-r-2 text-xs text-center bg-green-300'>
                 <div>
                     <div className='text-lg'>🧃</div>
-                    <div>{energy}/10</div>
+                    <div>{energy}/25</div>
                 </div>
             </div>
         </div>

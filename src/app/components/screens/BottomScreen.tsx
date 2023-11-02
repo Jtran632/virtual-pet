@@ -41,7 +41,7 @@ export default function BottomScreen({ pet, hunger, setHunger, energy, setEnergy
                         <button className={s} onClick={() => eat()}>🍕</button>
                         <button className={s}>💪</button>
                         <button className={s} onClick={() => setCurScreen('fishing')}>🎣</button>
-                        <button className={s} onClick={() => setEnergy(10)}>💤</button>
+                        <button className={s} onClick={() => setEnergy(25)}>💤</button>
                     </div >
                     : <></>
             }
