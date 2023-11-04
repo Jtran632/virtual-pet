@@ -1,5 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState, useEffect, Dispatch, SetStateAction, useRef } from 'react'
+import { useState, useEffect, Dispatch, SetStateAction, useContext } from 'react'
+import { ExpContext } from '../MainScreen';
 interface DefaultScreenProps {
     pet: {
         name: string,
@@ -26,8 +27,8 @@ interface DefaultScreenProps {
 export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, setMaxLevel, poke, canEvolve, setCanEvolve }: DefaultScreenProps) {
 
     const eggUrl = `/eggs/${Math.floor(Math.random() * 49) + 1}.png`
-    const [isShiny, setIsShiny] = useState(false)
     const [position, setPosition] = useState('col-start-2')
+    const {isShiny, setIsShiny} = useContext(ExpContext)
     const backgrounds = [
         'bg-lakeside',
         'bg-desert',
@@ -42,8 +43,8 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
                 base.push(poke[key as keyof typeof poke]['name']);
             }
         }
-        let shinyNumber = Math.floor(Math.random() * 3)
-        let shinyPick = Math.floor(Math.random() * 3)
+        const shinyNumber = Math.floor(Math.random() * 2)
+        const shinyPick = Math.floor(Math.random() * 2)
         let randomBase = Math.floor(Math.random() * base.length)
         if (shinyNumber === shinyPick) {
             setIsShiny(true)
@@ -51,7 +52,6 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
         setPet(poke[base[randomBase] as keyof object])
         setLevel(0)
         setMaxLevel(3)
-        console.log(base)
     }
     useEffect(() => {
         if (pet.name !== 'egg') {
@@ -77,10 +77,10 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
         setCanEvolve(false)
     }
     const fullyEvolved = () => {
-        if (pet.evolutionPhase === 'egg'){
+        if (pet.evolutionPhase === 'egg') {
             return "🥚"
         }
-        if (pet.evolvesTo === 'none' && level == maxLevel){
+        if (pet.evolvesTo === 'none' && level == maxLevel) {
             return '🎀'
         }
     }
@@ -97,8 +97,8 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
             </div>
             {pet.name === 'egg'
                 ?
-                <img src={eggUrl} alt={pet.name} className={`flex row-start-4 col-start-2 ml-10 mt-4 scale-[3]`} onClick={getBaseMons} />
-                : <img src={!isShiny ? pet.url : pet.urlShiny} alt={pet.name} className={`flex row-start-3 mt-5 ${position} w-fit h-28 `} />
+                <img src={eggUrl} alt={pet.name} className={`flex row-start-4 col-start-2 ml-10 mt-4 scale-[3]`} onClick={() => getBaseMons()} />
+                : <img src={isShiny ? pet.urlShiny : pet.url} alt={pet.name} className={`flex row-start-3 mt-5 ${position} w-fit h-28`} />
             }
             <div className='flex justify-between row-start-6 col-span-full w-full text-black px-4'>
                 <div>{pet.name} - {pet.evolutionPhase} </div>

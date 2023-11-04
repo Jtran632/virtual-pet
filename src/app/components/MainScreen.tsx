@@ -7,6 +7,7 @@ import DefaultScreen from './screens/DefaultScreen';
 import FishingScreen from './screens/fishingScreen';
 import GameScreen from './screens/GameScreen';
 import RPSGameScreen from './screens/Games/RPSGameScreen';
+import TreasureGameScreen from './screens/Games/TreasureGameScreen';
 interface IExpContext {
     exp: number,
     setExp: Dispatch<SetStateAction<number>>,
@@ -15,6 +16,8 @@ interface IExpContext {
     energy: number,
     setEnergy: Dispatch<SetStateAction<number>>,
     setCurScreen: Dispatch<SetStateAction<string>>,
+    isShiny: boolean,
+    setIsShiny: Dispatch<SetStateAction<boolean>>,
 }
 export const ExpContext = createContext<IExpContext>({
     exp: 0,
@@ -24,6 +27,8 @@ export const ExpContext = createContext<IExpContext>({
     energy: 0,
     setEnergy: () => { },
     setCurScreen: () => { },
+    isShiny: false,
+    setIsShiny: () => { },
 })
 export default function Screen({ poke }: any) {
     const [stats, setStats] = useState({
@@ -40,6 +45,7 @@ export default function Screen({ poke }: any) {
     const [maxLevel, setMaxLevel] = useState(0);
     const [canEvolve, setCanEvolve] = useState(false)
     const [curScreen, setCurScreen] = useState('default')
+    const [isShiny, setIsShiny] = useState(false)
     useEffect(() => {
         if (pet.evolutionPhase != 'egg' && curScreen === 'default') {
             const intervalHunger = setInterval(() => {
@@ -60,11 +66,12 @@ export default function Screen({ poke }: any) {
         default: <DefaultScreen {... { pet, setPet, level, setLevel, maxLevel, setMaxLevel, poke, canEvolve, setCanEvolve, setCurScreen }} />,
         fishing: <FishingScreen stats={stats} maxLevel={maxLevel} />,
         games: <GameScreen />,
-        rpsGame: <RPSGameScreen />
+        rpsGame: <RPSGameScreen />,
+        treasureGame: <TreasureGameScreen/>
     };
 
     return (
-        <ExpContext.Provider value={{ exp, setExp, level, setLevel, energy, setEnergy, setCurScreen }}>
+        <ExpContext.Provider value={{ exp, setExp, level, setLevel, energy, setEnergy, setCurScreen, isShiny, setIsShiny }}>
             <div className='border-2 border-white rounded-lg'>
                 <div className='flex justify-center items-center border-8 border-gray-300 h-96 w-[26rem] rounded-md text-xs'>
                     <div className='grid grid-rows-6 h-full w-full bg-gray-400'>

@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      cursor: {
+        'shover': 'url(../../public/treasureGame/shovel.png), pointer',
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
@@ -19,6 +22,8 @@ const config: Config = {
           'beach': "url('../../public/beach.png')",
           'fields': "url('../../public/fields.png')",
           'hill': "url('../../public/hill.png')",
+          'topDirt': "url('../../public/topDirt.png')",
+          'bottomDirt': "url('../../public/bottomDirt.png')",
       },
       fontFamily: {
         'pixel': ['pixel'],
@@ -36,7 +41,6 @@ const config: Config = {
           }
         }
       },
-      
       animation: {
         wiggle: "wiggle 3s ease-in-out infinite",
         pingSlow: "pingSlow 1s ",
