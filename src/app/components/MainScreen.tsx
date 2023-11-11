@@ -8,6 +8,7 @@ import FishingScreen from './screens/fishingScreen';
 import GameScreen from './screens/GameScreen';
 import RPSGameScreen from './screens/Games/RPSGameScreen';
 import TreasureGameScreen from './screens/Games/TreasureGameScreen';
+import WhackAMoleScreen from './screens/Games/WhackAMoleScreen';
 interface IExpContext {
     exp: number,
     setExp: Dispatch<SetStateAction<number>>,
@@ -67,7 +68,8 @@ export default function Screen({ poke }: any) {
         fishing: <FishingScreen stats={stats} maxLevel={maxLevel} />,
         games: <GameScreen />,
         rpsGame: <RPSGameScreen />,
-        treasureGame: <TreasureGameScreen/>
+        treasureGame: <TreasureGameScreen />,
+        moleGame: <WhackAMoleScreen />
     };
 
     return (

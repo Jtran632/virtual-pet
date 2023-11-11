@@ -15,7 +15,7 @@ export default function TreasureGameScreen() {
         return (
             <div className={`flex justify-center items-center h-full relative hover:border ${item.bg}`}>
                 {item.url.length != 0
-                    ?
+                    ? 
                     <img className='w-1/2' src={item.url} alt={item.value} />
                     : <div></div>
                 }
@@ -26,7 +26,7 @@ export default function TreasureGameScreen() {
         setGameOver(false)
         setGameScreen('game')
         setAttempts(0)
-        let treasure = Math.floor(Math.random() * cellNum) - 1;
+        let treasure = Math.floor(Math.random() * cellNum);
         let gridDict: IGrid = {};
         for (let i = 0; i < cellNum; i++) {
             if (i === treasure) {
@@ -89,7 +89,7 @@ export default function TreasureGameScreen() {
     }
     const Stats = () => {
         return (
-            <div className='grid grid-col-5 grid-row-4 row-span-4 col-span-4 border-2 border-green-600'>
+            <div className='grid grid-col-5 grid-row-4 row-span-4 col-span-4 border-2 border-green-600 '>
                 <img src={'/treasureGame/treasure/1.png'} alt={'treasure'} className='flex w-20 h-20 row-span-1 col-start-3 ml-12'></img>
                 <div className='row-start-3 col-span-5 text-center'>Found the treasure in {attempts} turn(s)</div>
                 <button

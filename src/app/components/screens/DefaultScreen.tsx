@@ -1,5 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
-import { useState, useEffect, Dispatch, SetStateAction, useContext } from 'react'
+import { useState, useEffect, Dispatch, SetStateAction, useContext, useRef } from 'react'
 import { ExpContext } from '../MainScreen';
 interface DefaultScreenProps {
     pet: {
@@ -28,7 +28,7 @@ export default function DefaultScreen({ pet, setPet, level, maxLevel, setLevel, 
 
     const eggUrl = `/eggs/${Math.floor(Math.random() * 49) + 1}.png`
     const [position, setPosition] = useState('col-start-2')
-    const {isShiny, setIsShiny} = useContext(ExpContext)
+    const { isShiny, setIsShiny } = useContext(ExpContext)
     const backgrounds = [
         'bg-lakeside',
         'bg-desert',

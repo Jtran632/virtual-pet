@@ -63,6 +63,6 @@ export default function TopScreen({ happiness, hunger, stats, energy }: TopScree
                     <div>{energy}/25</div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }
